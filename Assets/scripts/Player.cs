@@ -23,8 +23,8 @@ public class Player : MonoBehaviour
     {
         Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-        float minX = -5f + halfWidth;
-        float maxX = 5f - halfWidth;
+        float minX = -2.5f + halfWidth;
+        float maxX = 2.5f - halfWidth;
 
         float toX = Mathf.Clamp(mousePos.x, minX, maxX);
 
@@ -54,11 +54,7 @@ public class Player : MonoBehaviour
             GameManager.instance.SetGameOver();
             Destroy(gameObject);
         }
-        else if (other.gameObject.tag == "Coin")
-        {
-            GameManager.instance.IncreaseCoin();
-            Destroy(other.gameObject);
-        }
+       
     }
     
 

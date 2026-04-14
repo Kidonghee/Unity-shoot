@@ -9,7 +9,7 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField]
     private GameObject boss;
 
-    private float[] spawnPosX = { -4f, -2f, 0f, 2f, 4f };
+    private float[] spawnPosX = { -2.2f, -1.1f, 0f, 1.1f, 2.2f };
     private float spawnInterval = 1.5f;
 
     void Start()
