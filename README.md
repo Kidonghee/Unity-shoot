@@ -60,10 +60,10 @@
 
 ## 프로젝트 구조
 Assets/
-├── Scenes/
-├── scripts/
-├── prefabs/
-├── Sprites/
+- Scenes/
+- scripts/
+- prefabs/
+- Sprites/
 
 ---
 
