@@ -105,7 +105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f07af823b34d094fa18b5dbc4f824e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Weapon
-  moveSpeed: 10
+  moveSpeed: 5.9
   damage: 1
 --- !u!58 &379445393979955589
 CircleCollider2D:
